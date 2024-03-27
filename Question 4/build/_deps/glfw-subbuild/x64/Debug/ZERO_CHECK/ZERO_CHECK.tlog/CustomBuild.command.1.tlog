@@ -1,0 +1,10 @@
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\9803842209703E4721EA65938E180FB6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild" "-BC:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/glfw-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

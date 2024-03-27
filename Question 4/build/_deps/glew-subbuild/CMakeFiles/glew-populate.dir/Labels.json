@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/glew-populate"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/e4fecfe5975c2367dbe7505905502750/glew-populate.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/52a97b6d6dd04cfbbf401ef3528543ed/glew-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/2d4f146957d6caacec687aba3eee1fdb/glew-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/2d4f146957d6caacec687aba3eee1fdb/glew-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/2d4f146957d6caacec687aba3eee1fdb/glew-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/2d4f146957d6caacec687aba3eee1fdb/glew-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/2d4f146957d6caacec687aba3eee1fdb/glew-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/2d4f146957d6caacec687aba3eee1fdb/glew-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/2d4f146957d6caacec687aba3eee1fdb/glew-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/2d4f146957d6caacec687aba3eee1fdb/glew-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glew-populate"
+		],
+		"name" : "glew-populate"
+	}
+}

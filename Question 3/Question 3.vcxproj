@@ -127,8 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HW3_Q3.cpp" />
-    <ClCompile Include="HW_Q3_Attempt2.cpp" />
+    <ClCompile Include="Q3Attempt1.cpp" />
+    <ClCompile Include="Q3_Attempt3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

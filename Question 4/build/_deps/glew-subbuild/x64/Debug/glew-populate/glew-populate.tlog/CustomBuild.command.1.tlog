@@ -1,0 +1,150 @@
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\2D4F146957D6CAACEC687ABA3EEE1FDB\GLEW-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/tmp/glew-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/src/glew-populate-stamp/Debug/glew-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\2D4F146957D6CAACEC687ABA3EEE1FDB\GLEW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\OpenGL Example\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/tmp/glew-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/src/glew-populate-stamp/Debug/glew-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\2D4F146957D6CAACEC687ABA3EEE1FDB\GLEW-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\OpenGL Example\build\_deps\glew-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/tmp/glew-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\2D4F146957D6CAACEC687ABA3EEE1FDB\GLEW-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/src/glew-populate-stamp/Debug/glew-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\2D4F146957D6CAACEC687ABA3EEE1FDB\GLEW-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\OpenGL Example\build\_deps\glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/src/glew-populate-stamp/Debug/glew-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\2D4F146957D6CAACEC687ABA3EEE1FDB\GLEW-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\OpenGL Example\build\_deps\glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/src/glew-populate-stamp/Debug/glew-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\2D4F146957D6CAACEC687ABA3EEE1FDB\GLEW-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\OpenGL Example\build\_deps\glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/src/glew-populate-stamp/Debug/glew-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\2D4F146957D6CAACEC687ABA3EEE1FDB\GLEW-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\OpenGL Example\build\_deps\glew-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/src/glew-populate-stamp/Debug/glew-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\52A97B6D6DD04CFBBF401EF3528543ED\GLEW-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/Debug/glew-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/glew-populate-prefix/src/glew-populate-stamp/Debug/glew-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKEFILES\E4FECFE5975C2367DBE7505905502750\GLEW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\945AU\ONEDRIVE\DESKTOP\PENN_STATE\SENIOR YEAR SCHOOL WORK\SEMESTER 2\AERSP 424\OPENGL EXAMPLE\BUILD\_DEPS\GLEW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild" "-BC:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild" --check-stamp-file "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glew-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

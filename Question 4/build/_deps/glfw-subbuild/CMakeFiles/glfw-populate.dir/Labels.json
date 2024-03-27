@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/9803842209703e4721ea65938e180fb6/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/f1ec51b606653cd5ffd743fe499bbd0a/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/1a648cc086c63f8e5885312cca604eb6/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/1a648cc086c63f8e5885312cca604eb6/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/1a648cc086c63f8e5885312cca604eb6/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/1a648cc086c63f8e5885312cca604eb6/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/1a648cc086c63f8e5885312cca604eb6/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/1a648cc086c63f8e5885312cca604eb6/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/1a648cc086c63f8e5885312cca604eb6/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/945au/OneDrive/Desktop/Penn_State/Senior Year School Work/Semester 2/AERSP 424/OpenGL Example/build/_deps/glfw-subbuild/CMakeFiles/1a648cc086c63f8e5885312cca604eb6/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}
