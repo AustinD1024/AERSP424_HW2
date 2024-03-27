@@ -1,0 +1,16 @@
+Question 6
+
+Some issues that could potentially arise if some of the actions, e.g., waking up the ATC, checking the traffic pattern, entering the traffic pattern, diverging to another airport, etc., take time to finish are:
+
+	1. There could be potential deadlocks. If multiple aircraft are attempting to interact with the ATC and enter the traffic pattern simultaneously, deadlocks could occur if two or more of the aircraft were waiting for each other to release their resources. 
+
+	2. There could be delays in request to talking to ATC personel, which would result in a less efficient system.
+
+	3. There could be synchronization issues due to race conditions. 
+
+
+Some potential solutions to these issues are: 
+
+	1. Use of queing mechanisms which would ensure fair access to ATC, runway, etc. and prevent resource contention.
+
+	2. Hire more ATC personel. If there were more ATC personel this would increase the efficiency of the system. It would allow for multiple aircraft to talk to ATC at the same time, and result in less delayed time compared to if there were only one ATC personel.

@@ -1,0 +1,15 @@
+Question 5:
+
+Some potential issues that may happen if the robot that finished the task is assigned a new task immediately are:
+
+	1. It may lead to non-optimal task completion. Because multiple robots are all trying to get the 2 tools that they need for their task (left and right tool) if one robot continues to keep its tools because it was immediately assigned a new task, it can delay other robots from starting their tasks. Therefore possibly leading to more time.
+
+	2. There could be unfair task distribution. Assuming there were more than 5 tasks and the tasks were assigned based on finding the optimal time of completion, this could result in several of the robots doing many more tasks than the other robots which could lead to fatigue and overuse. Although making the same robot continue to complete tasks may be optimal for time, it may result in electronic failure, overheating, etc. if this was a real world scenario.
+
+
+Some potential solutions could be:
+
+	1. Having a max amount of tasks that a robot can immediately do in a row without taking a break. This would allow for other robots to complete their tasks as well, and provide a temporary break for the robots working.
+
+	2. ...
+

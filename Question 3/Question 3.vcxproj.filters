@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Q3_Attempt3.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Q3Attempt1.cpp">
+    <ClCompile Include="Q3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
