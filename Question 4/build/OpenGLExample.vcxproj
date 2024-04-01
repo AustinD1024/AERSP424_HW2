@@ -313,9 +313,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\OpenGL Example\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="C:\Users\945au\OneDrive\Desktop\Penn_State\Senior Year School Work\Semester 2\AERSP 424\OpenGL Example\build\ZERO_CHECK.vcxproj">
       <Project>{E3C021BA-1C0B-366F-BFE5-07B2FAEDB33C}</Project>
       <Name>ZERO_CHECK</Name>
@@ -330,6 +327,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{AC6AF421-1419-305D-B647-884477B9C060}</Project>
       <Name>libglew_static</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

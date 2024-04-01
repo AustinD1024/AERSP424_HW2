@@ -6,10 +6,12 @@ Some potential issues that may happen if the robot that finished the task is ass
 
 	2. There could be unfair task distribution. Assuming there were more than 5 tasks and the tasks were assigned based on finding the optimal time of completion, this could result in several of the robots doing many more tasks than the other robots which could lead to fatigue and overuse. Although making the same robot continue to complete tasks may be optimal for time, it may result in electronic failure, overheating, etc. if this was a real world scenario.
 
+	3. Race Conditions due to the multithreading
+
 
 Some potential solutions could be:
 
 	1. Having a max amount of tasks that a robot can immediately do in a row without taking a break. This would allow for other robots to complete their tasks as well, and provide a temporary break for the robots working.
 
-	2. ...
+	2. Apply the Principle of Least Privilege to the program which should help solve the issue of race conditions.
 
